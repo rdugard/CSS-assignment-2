@@ -11,7 +11,7 @@ h1 { margin: 0;
 float: left;
 padding: 2px; }
 
-nav { margin-right: 1%;
+nav { margin-right: 2%;
   float: right;
 padding-top: 25px;
 }
@@ -24,26 +24,20 @@ margin: 0;
 padding: 2px; }
 
 article {
-  background: #fff;
-  width: 60%;
-  margin: auto;
-  padding: 5%;
+  width: 40%;
+  float: left;
 }
 
-section { clear: both; }
-section > p { text-align: center; }
+section { clear: both;
+ overflow: auto;
+  color: #000; }
 
-#cougar { background: #FFD5AE;
-  color:#000;
-padding: 5%; }
 
-#lion { background: #FFBD82;
-  color: #000;
-padding: 5%; }
+#cougar { background: #FFD5AE; }
 
-#tiger { background: #B26219;
-  color: #000;
-padding: 5%; }
+#lion { background: #FFBD82; }
+
+#tiger { background: #B26219; }
 
 img { display: block;
   margin: auto; }
@@ -54,6 +48,10 @@ margin: 0; }
 footer { text-align: center;
   padding: 1% 30%; }
 
+div { float: left;
+width: 50%;
+
+}
 
 
 
