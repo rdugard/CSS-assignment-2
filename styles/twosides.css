@@ -30,7 +30,8 @@ article {
 
 section { clear: both;
  overflow: auto;
-  color: #000; }
+  color: #000;
+padding: 2% 0; }
 
 
 #cougar { background: #FFD5AE; }
@@ -50,7 +51,6 @@ footer { text-align: center;
 
 div { float: left;
 width: 50%;
-
 }
 
 
